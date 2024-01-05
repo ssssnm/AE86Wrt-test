@@ -25,5 +25,5 @@ jobs:
       uses: xiangfeidexiaohuo/delete-workflow-runs@main
       continue-on-error: true
       with:
-        retain_days: 1
+        retain_days: 3
         keep_minimum_runs: 0
