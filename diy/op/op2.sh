@@ -19,7 +19,7 @@ cp -af ./package/add/luci-app-filetransfer/po/zh-cn  ./package/add/luci-app-file
 
 
 ##配置IP
-sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 
 ##
 rm -rf ./feeds/extraipk/theme/luci-theme-argon-18.06
